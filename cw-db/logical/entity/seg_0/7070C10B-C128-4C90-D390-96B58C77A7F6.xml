@@ -16,10 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="assignment_id" id="DBCAAC79-2760-9787-BD9C-1786F8F223D5">
+<Attribute name="assignment_id" id="E10AE783-8B2B-9B76-0116-A1540499252C">
 <createdBy>bisha</createdBy>
-<createdTime>2022-03-17 21:26:19 UTC</createdTime>
-<generatorID>42DF85AB-D4FF-7DAA-7993-721AD0E7D8E0</generatorID>
+<createdTime>2022-03-18 16:14:18 UTC</createdTime>
+<generatorID>0372FE11-71AE-24C2-C4C7-377A55A0BC95</generatorID>
 <ownerDesignName>cw-db</ownerDesignName>
 <engineerTo>
 <item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
@@ -30,33 +30,50 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="department id" id="6899019C-FA4F-8157-AC7F-0B716EFF89B0">
+<Attribute name="grade" id="EAC53064-836D-5DBF-C098-2C1D7A34FC04">
 <createdBy>bisha</createdBy>
-<createdTime>2022-03-17 21:41:49 UTC</createdTime>
-<generatorID>42DF85AB-D4FF-7DAA-7993-721AD0E7D8E0</generatorID>
+<createdTime>2022-03-18 16:07:32 UTC</createdTime>
 <ownerDesignName>cw-db</ownerDesignName>
 <engineerTo>
 <item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
 </engineerTo>
-<referedAttribute>BB7D05EA-7E17-0E95-AE31-2E83294AECB5</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="E8750AC6-8486-791A-D9B1-4340726B8B3D">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-18 16:07:47 UTC</createdTime>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<listOfValues>
+<valueDef value="Fail" description=""/>
+<valueDef value="Pass" description=""/>
+</listOfValues>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="7BAD4807-BE61-2720-FF55-9428BCCC1974" name="Student Module Assignment PK">
+<identifier id="FA49C23A-458A-274C-4BB1-D1BB770DD9A6" name="Student Module Assignment PK">
 <createdBy>bisha</createdBy>
-<createdTime>2022-03-17 21:27:48 UTC</createdTime>
+<createdTime>2022-03-18 16:11:24 UTC</createdTime>
 <ownerDesignName>cw-db</ownerDesignName>
 <engineerTo>
 <item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>DBCAAC79-2760-9787-BD9C-1786F8F223D5</attributeRef>
-<attributeRef>6899019C-FA4F-8157-AC7F-0B716EFF89B0</attributeRef>
+<attributeRef>E10AE783-8B2B-9B76-0116-A1540499252C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

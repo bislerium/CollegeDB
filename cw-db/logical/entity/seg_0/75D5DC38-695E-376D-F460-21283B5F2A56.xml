@@ -30,7 +30,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="module id" id="2461FBB4-279A-E28E-B052-AB9511DEB434">
+<Attribute name="id" id="2461FBB4-279A-E28E-B052-AB9511DEB434">
 <createdBy>bisha</createdBy>
 <createdTime>2022-03-17 20:43:49 UTC</createdTime>
 <generatorID>DD23EBCB-1001-4E8A-5B83-7D078ADA17FF</generatorID>

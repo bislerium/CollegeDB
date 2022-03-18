@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9EEEE048-4163-4FB0-8F17-02C4BB211975" name="Student">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-18 16:55:54 UTC</createdTime>
+<generatorID>A2167104-9A90-79EC-A7FC-4EF57E4CEB6D</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="1BB60D7B-B57F-8656-5836-DF2B762B6476">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-18 16:55:54 UTC</createdTime>
+<generatorID>E6FA7439-50EB-AF5B-E817-2DFD84133751</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3740623E-13D8-B6E3-B775-DC3F45CD6C8F" referredColumn="DC9AA5F8-7737-B90C-B157-765250DE7B43"/>
+</associations>
+</Column>
+<Column name="group" id="529E8FE2-E6EF-8B3E-D882-A237954A244E">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-18 16:55:54 UTC</createdTime>
+<generatorID>527B2C2F-D4FA-52E0-DBBE-2DA90886CD83</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_joined" id="64976A15-A7FD-5750-30CE-51C29BE7119F">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-18 16:55:54 UTC</createdTime>
+<generatorID>81613C48-A9EB-41FB-AE48-25AFE7A7E8C8</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="396F3563-639B-3515-DCE2-06E06D67B427" name="Student_PK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-18 16:55:54 UTC</createdTime>
+<generatorID>3A2FAAB0-1B70-F2ED-9FAA-5D14E8DF6285</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BB60D7B-B57F-8656-5836-DF2B762B6476"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C585C54F-662F-7261-2A09-7011C24963E9" name="Student_Person_FK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-18 16:55:54 UTC</createdTime>
+<generatorID>A645DC6B-3B41-3880-AF39-C67770A9B52B</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BB60D7B-B57F-8656-5836-DF2B762B6476"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

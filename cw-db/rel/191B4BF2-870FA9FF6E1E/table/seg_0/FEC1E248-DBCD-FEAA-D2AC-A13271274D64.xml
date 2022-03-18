@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FEC1E248-DBCD-FEAA-D2AC-A13271274D64" name="Student_Fee">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-18 16:55:54 UTC</createdTime>
+<generatorID>05645408-6F99-C661-B230-8F9C3316C923</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="student_id" id="DF1FC2E5-B335-89DE-3980-642426CECFB5">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-18 16:55:54 UTC</createdTime>
+<generatorID>C99EAFB3-3145-1868-FA43-88FD01AC24FC</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E1DF9BF-B0A6-8935-C89A-8B21FF43B18A" referredColumn="1BB60D7B-B57F-8656-5836-DF2B762B6476"/>
+</associations>
+</Column>
+<Column name="fee_id" id="7F145090-A3CC-3776-A0F7-5BE4C748DFA3">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-18 16:55:54 UTC</createdTime>
+<generatorID>250583C8-DA19-171A-EB05-E90579226E36</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E666439F-702B-C02A-8A75-5227AF5E4519" referredColumn="142C7CA7-2A3D-036F-C0C7-6A46105F2A73"/>
+</associations>
+</Column>
+<Column name="status" id="173064D3-187A-70CD-9485-CE4C459D35A8">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-18 16:55:54 UTC</createdTime>
+<generatorID>89287566-3886-BED2-CE8A-AE029336FB3D</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<listOfValues>
+<valueDef value="Due" description=""/>
+<valueDef value="Paid" description=""/>
+</listOfValues>
+<defaultValue>N</defaultValue>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payment_date" id="64ECA8BB-466E-B134-6521-122F0CA93CA5">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-18 16:55:54 UTC</createdTime>
+<generatorID>5E3BCC8A-834A-E964-08DC-7B9B47EF87F1</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="department_id" id="C32C1B47-F873-32AC-15D8-ADA3752BD334">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-18 16:55:54 UTC</createdTime>
+<generatorID>453E1B73-0CB8-11CF-D178-89E930A8E8E1</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E666439F-702B-C02A-8A75-5227AF5E4519" referredColumn="B5BD36CC-5AD9-6C02-3741-19CED7E8BF04"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BBE1822C-077E-502A-CED0-960B142FCB35" name="Student_Fee_PK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-18 16:55:54 UTC</createdTime>
+<generatorID>B85C86E3-B66C-9214-985E-E8ABC579B850</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF1FC2E5-B335-89DE-3980-642426CECFB5"/>
+<colUsage columnID="7F145090-A3CC-3776-A0F7-5BE4C748DFA3"/>
+<colUsage columnID="C32C1B47-F873-32AC-15D8-ADA3752BD334"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2775E0CD-6171-590F-DEBE-ABA3F5A3F90E" name="Student_Fee_Student_FK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-18 16:55:54 UTC</createdTime>
+<generatorID>3AC8E927-E5B1-3B40-4776-2A6ED95BBCF3</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF1FC2E5-B335-89DE-3980-642426CECFB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE69F3DB-FD72-5CF6-0130-35CC0F4F5D5B" name="Student_Fee_Fee_FK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-18 16:55:54 UTC</createdTime>
+<generatorID>83177AF0-8FCE-FA48-7828-AC6183501786</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F145090-A3CC-3776-A0F7-5BE4C748DFA3"/>
+<colUsage columnID="C32C1B47-F873-32AC-15D8-ADA3752BD334"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

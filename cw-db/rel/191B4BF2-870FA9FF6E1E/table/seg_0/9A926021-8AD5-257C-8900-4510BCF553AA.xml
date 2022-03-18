@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A926021-8AD5-257C-8900-4510BCF553AA" name="Student_Module">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-18 16:55:54 UTC</createdTime>
+<generatorID>99180E8E-4F6A-D6F7-54D3-947FB52A3F29</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="student_id" id="4B70BD7A-DC7B-EC1E-793A-6CC3B5C99F9F">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-18 16:55:54 UTC</createdTime>
+<generatorID>F68427FC-AE10-697C-5511-3DA17FAB5C30</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F02BA3D1-6322-4F2A-5E93-7EBB6E81AFE8" referredColumn="1BB60D7B-B57F-8656-5836-DF2B762B6476"/>
+</associations>
+</Column>
+<Column name="module_id" id="ACF1FB9D-16D8-6CEE-61A7-722CE57E320B">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-18 16:55:54 UTC</createdTime>
+<generatorID>68E212E5-D080-2827-E161-968F4B0B7EFC</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E81F7A8B-387B-9D76-1820-E9A95A8C9FB5" referredColumn="4D4B45B0-8AF0-CE3A-3877-B85237092B8C"/>
+</associations>
+</Column>
+<Column name="Student_Module_ID" id="E5886FA7-65FF-6D3A-79FE-236FA7D7F80E">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-18 16:55:54 UTC</createdTime>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9C9A9B6-0B57-5720-B971-ACBE772E2584" name="Student_Module_PK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-18 16:55:54 UTC</createdTime>
+<ownerDesignName>cw-db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="E5886FA7-65FF-6D3A-79FE-236FA7D7F80E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09C091FE-F0C6-7FB1-B90C-8A076FB726C1" name="Student_Module_student_id_module_id_UN">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-18 16:55:54 UTC</createdTime>
+<generatorID>C86697D8-B456-D34F-D3AE-43E5E3B6BF46</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B70BD7A-DC7B-EC1E-793A-6CC3B5C99F9F"/>
+<colUsage columnID="ACF1FB9D-16D8-6CEE-61A7-722CE57E320B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C471C38-1426-C3D5-7DE1-617CE2D4EE95" name="Student_Module_Student_FK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-18 16:55:54 UTC</createdTime>
+<generatorID>3BB6291D-640A-60BE-276C-581688AA196C</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B70BD7A-DC7B-EC1E-793A-6CC3B5C99F9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CEB7108E-5B73-9C3E-0ABD-9C8D2464A925" name="Student_Module_Module_FK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-18 16:55:54 UTC</createdTime>
+<generatorID>8BDCDAD2-13F9-4DD4-B0B5-36704F6FDBE0</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACF1FB9D-16D8-6CEE-61A7-722CE57E320B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

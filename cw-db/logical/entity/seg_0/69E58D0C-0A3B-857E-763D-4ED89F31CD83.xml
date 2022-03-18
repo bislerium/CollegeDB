@@ -43,44 +43,10 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="grade" id="297D57D3-F54E-71D2-E509-3D9B99A8FE09">
+<Attribute name="department id" id="1DC789DB-0CBD-1EBE-9ECA-571FC7E2FD1A">
 <createdBy>bisha</createdBy>
-<createdTime>2022-03-17 20:27:25 UTC</createdTime>
-<generatorID>A9FE51D2-6B9E-D633-82FD-C3FE906745F4</generatorID>
-<ownerDesignName>cw-db</ownerDesignName>
-<engineerTo>
-<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>2</dataTypeSize>
-<ownDataTypeParameters>2,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="status" id="2EA006ED-DBD4-9253-0C8A-F8E96C3136AC">
-<createdBy>bisha</createdBy>
-<createdTime>2022-03-17 20:27:25 UTC</createdTime>
-<generatorID>E8EAE90B-907F-BAF4-79EE-4359F7651B7B</generatorID>
-<ownerDesignName>cw-db</ownerDesignName>
-<engineerTo>
-<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>4</dataTypeSize>
-<listOfValues>
-<valueDef value="Fail" description=""/>
-<valueDef value="Pass" description=""/>
-</listOfValues>
-<ownDataTypeParameters>4,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="department id" id="BB7D05EA-7E17-0E95-AE31-2E83294AECB5">
-<createdBy>bisha</createdBy>
-<createdTime>2022-03-17 21:41:49 UTC</createdTime>
-<generatorID>B24E418B-C60D-226E-1501-06B0068A840F</generatorID>
+<createdTime>2022-03-18 16:13:34 UTC</createdTime>
+<generatorID>75DFB739-F1BC-D97B-30A7-70D1A05489CA</generatorID>
 <ownerDesignName>cw-db</ownerDesignName>
 <engineerTo>
 <item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
@@ -105,7 +71,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>63CD7EC2-8399-DEA9-6BF8-E425246D909A</attributeRef>
-<attributeRef>BB7D05EA-7E17-0E95-AE31-2E83294AECB5</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

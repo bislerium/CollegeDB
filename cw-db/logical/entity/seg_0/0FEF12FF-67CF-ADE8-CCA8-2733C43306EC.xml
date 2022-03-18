@@ -30,7 +30,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="attendance id" id="AA1707FB-1615-FE23-1012-0D4A3F5E29FE">
+<Attribute name="id" id="AA1707FB-1615-FE23-1012-0D4A3F5E29FE">
 <createdBy>bisha</createdBy>
 <createdTime>2022-03-17 21:34:57 UTC</createdTime>
 <generatorID>7E09B5CE-B43F-7B72-0720-939C7072E335</generatorID>
