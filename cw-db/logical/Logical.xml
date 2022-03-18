@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="6BC868D9-04E4-1DF8-9B25-70BBA89FECFA" mainViewID="7E638041-FFA8-ADEF-E922-419F5A9D267A">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 20:09:10 UTC</createdTime>
+<ownerDesignName>cw-db1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

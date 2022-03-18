@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="638FA289-B586-2792-7F8D-8DF4DFAE8F0F" name="Teacher">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 20:27:25 UTC</createdTime>
+<generatorID>FE33CF2B-E1F0-CBE1-0078-D7C7B2FF7DC6</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>D37F9510-E532-5AA9-F898-2C849D6021D8</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="salary" id="B606B806-7C21-632A-CC95-9C1C647B4166">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 20:27:25 UTC</createdTime>
+<generatorID>149156EF-E8EF-46F9-76CD-9BAB0CFCAF81</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT044</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date joined" id="074F8BAA-1C00-884B-5893-7BD7D1DB7BCF">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 20:27:25 UTC</createdTime>
+<generatorID>D97EFD6B-E48D-3F95-0709-FC3403E3383F</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

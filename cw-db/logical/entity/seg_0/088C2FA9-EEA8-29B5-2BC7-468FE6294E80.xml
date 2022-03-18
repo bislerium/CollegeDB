@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="088C2FA9-EEA8-29B5-2BC7-468FE6294E80" name="Department">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 20:27:25 UTC</createdTime>
+<generatorID>2B368CF5-791D-3943-0563-8A8D52532A47</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="department id" id="B69B6ED2-6143-3611-191D-2F06405C137C">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 20:27:25 UTC</createdTime>
+<generatorID>500A64F4-8303-0576-7C8B-90D872142890</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="department name" id="474055E6-0A7A-F1A3-0C1A-367BDE91559D">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 20:27:25 UTC</createdTime>
+<generatorID>AF4C358C-B518-1AD4-D269-DBDEC6ED0BAA</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="department location" id="FE376B8C-2565-F364-9C59-910CA3722FD6">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 20:27:25 UTC</createdTime>
+<generatorID>C71BD43F-ADE1-99E6-BB3E-2D4931431D20</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2C18BFE9-0F61-97B6-3CBA-0C68476C4939" name="Department PK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 20:27:25 UTC</createdTime>
+<generatorID>ECE24B31-2882-348E-B433-8A55C2658D3B</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B69B6ED2-6143-3611-191D-2F06405C137C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

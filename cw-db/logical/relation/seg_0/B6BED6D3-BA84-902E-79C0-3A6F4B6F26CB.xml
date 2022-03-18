@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Person Address Person FK" directorySegmentName="seg_0" id="B6BED6D3-BA84-902E-79C0-3A6F4B6F26CB">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 20:33:25 UTC</createdTime>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<sourcePk>3A2FAAB0-1B70-F2ED-9FAA-5D14E8DF6285</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D37F9510-E532-5AA9-F898-2C849D6021D8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C9A64169-C32C-CA6F-DF4E-4684274CDED0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6CFA915-FE28-B1B4-0C00-31835C6B1D78" name="Assignment">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 21:42:42 UTC</createdTime>
+<generatorID>69E58D0C-0A3B-857E-763D-4ED89F31CD83</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="409BD062-1E93-6AEE-2BFE-F1460A5B7A47">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 21:42:42 UTC</createdTime>
+<generatorID>63CD7EC2-8399-DEA9-6BF8-E425246D909A</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="C56E13CE-2C0A-7D0D-2114-C78BC0BB3FBB">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 21:42:42 UTC</createdTime>
+<generatorID>E1D2050D-F5E2-822E-81F0-4EBBB16DB8DF</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grade" id="BFCDCEED-9E8C-EC98-85B9-6D70281EA632">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 21:42:42 UTC</createdTime>
+<generatorID>297D57D3-F54E-71D2-E509-3D9B99A8FE09</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="C88862E4-DE40-41E1-480B-9E679B66C997">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 21:42:42 UTC</createdTime>
+<generatorID>2EA006ED-DBD4-9253-0C8A-F8E96C3136AC</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<listOfValues>
+<valueDef value="Fail" description=""/>
+<valueDef value="Pass" description=""/>
+</listOfValues>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="department_id" id="7543B66F-69CF-1B9B-ECE5-0B8911881CDC">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 21:42:42 UTC</createdTime>
+<generatorID>BB7D05EA-7E17-0E95-AE31-2E83294AECB5</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D4220D8-7040-ED63-6F95-6F76A02E0959" referredColumn="B9FAAF9D-C65E-0C6A-728B-58F23FDD685A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CDFB7CBF-293F-9F50-84D2-F4FA3FB904F2" name="Assignment_PK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 21:42:42 UTC</createdTime>
+<generatorID>56ED860A-73AD-8E44-CFE6-956FCCB0A03B</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="409BD062-1E93-6AEE-2BFE-F1460A5B7A47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="847E6E29-E73C-5017-E207-53588589C7B2" name="Assignment_Department_FK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 21:42:42 UTC</createdTime>
+<generatorID>B24E418B-C60D-226E-1501-06B0068A840F</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7543B66F-69CF-1B9B-ECE5-0B8911881CDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

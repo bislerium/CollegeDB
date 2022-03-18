@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD16A876-54C3-5E1E-0564-F88A1B491412" name="Person_Address">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 21:42:42 UTC</createdTime>
+<generatorID>C9A64169-C32C-CA6F-DF4E-4684274CDED0</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="address_id" id="4E49238B-FF86-0DBC-02C3-54969E34F4C1">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 21:42:42 UTC</createdTime>
+<generatorID>D4BFF922-7225-434C-86AE-809CEA4E72E8</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08D0B1F1-22C5-0BBC-9C01-60D7E67274EC" referredColumn="5AEC1952-EB98-EF31-2D41-94C023DCBB21"/>
+</associations>
+</Column>
+<Column name="person_id" id="19C01FF2-B9D5-7C9A-7509-178F827822B5">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 21:42:42 UTC</createdTime>
+<generatorID>63BA9057-D8EC-E6D0-D0DB-4AC98A7E8BF1</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41D9DA6D-9BDA-6638-A63A-0FCD411A7A04" referredColumn="A607F382-AB92-10C2-282C-FD0A52BAD5F4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BFD7356E-7FF2-0582-0956-2CCFA37E1D00" name="Person_Address_PK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 21:42:42 UTC</createdTime>
+<generatorID>3FFCF0A0-B8CE-8DF3-C70A-8D0788E75061</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E49238B-FF86-0DBC-02C3-54969E34F4C1"/>
+<colUsage columnID="19C01FF2-B9D5-7C9A-7509-178F827822B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E54945C-7E46-6F44-84DB-25A51D07A162" name="Person_Address_Address_FK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 21:42:42 UTC</createdTime>
+<generatorID>BFC35304-2B5B-61A4-55DE-31930C64283A</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E49238B-FF86-0DBC-02C3-54969E34F4C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08BC55B2-699D-10FB-350C-3DF6F9CB3E1C" name="Person_Address_Person_FK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 21:42:42 UTC</createdTime>
+<generatorID>B6BED6D3-BA84-902E-79C0-3A6F4B6F26CB</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19C01FF2-B9D5-7C9A-7509-178F827822B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

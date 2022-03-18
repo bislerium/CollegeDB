@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D9833082-12CE-64B7-6F4B-A6E3619D468F" name="Address">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 20:31:35 UTC</createdTime>
+<generatorID>60231387-427C-A0D6-F900-2D5BFBB51736</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="352B8359-A497-22D2-4EED-BCE55AFD46D2">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 20:32:02 UTC</createdTime>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="country" id="84A1420B-12FB-79EF-F0DB-AD1C5043E141">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 20:31:35 UTC</createdTime>
+<ownerDesignName>cw-db</ownerDesignName>
+<importedID>A77AE939-A7BE-0697-1019-376DAE1B89F3</importedID>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="province" id="B7333C75-9D93-AC9B-4FAF-9A1357AE698B">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 20:31:35 UTC</createdTime>
+<ownerDesignName>cw-db</ownerDesignName>
+<importedID>F2785248-B6BC-0CF0-42BD-3802880EF36D</importedID>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city locality" id="0F76BFC2-603F-A722-5178-18CA40C1B9AE">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 20:31:35 UTC</createdTime>
+<ownerDesignName>cw-db</ownerDesignName>
+<importedID>A65B4081-E26C-073C-DB1A-CBD99E21452D</importedID>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street name" id="2898350B-8F38-F958-37A1-C73E9E3B6BF2">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 20:31:35 UTC</createdTime>
+<ownerDesignName>cw-db</ownerDesignName>
+<importedID>C6E3A28D-138C-B7B2-99A2-AEB9BB5C97BB</importedID>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="41A1B43D-08E7-A8CD-E336-8CBA86365C95" name="Address PK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 20:32:38 UTC</createdTime>
+<ownerDesignName>cw-db</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>352B8359-A497-22D2-4EED-BCE55AFD46D2</newElementsIDs>
+<usedAttributes>
+<attributeRef>352B8359-A497-22D2-4EED-BCE55AFD46D2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

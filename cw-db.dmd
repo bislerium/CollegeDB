@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="cw-db" id="75E0626B-54FB-40BE-6155-1798B00A532E" version="3.5">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-17 20:09:10 UTC</createdTime>
+<ownerDesignName>cw-db1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>75E0626B-54FB-40BE-6155-1798B00A532E</designId>
+</OSDM_Design>
