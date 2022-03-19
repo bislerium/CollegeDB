@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="F0F3A855-3730-ECAE-9094-6347864D1D56" name="Person">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 13:10:05 UTC</createdTime>
+<generatorID>D37F9510-E532-5AA9-F898-2C849D6021D8</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_id" id="7D9241D3-2C69-8CE5-2750-DB26201C8889">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 13:10:05 UTC</createdTime>
+<generatorID>E6FA7439-50EB-AF5B-E817-2DFD84133751</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="full_name" id="0F1E0946-DCDE-CE2B-69E2-8E7FA20CE377">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 13:10:05 UTC</createdTime>
+<generatorID>7F27A314-EE20-BF70-94CB-ED08480736B4</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="412429F8-8221-850F-024A-BCB4FFE4F430">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 13:10:05 UTC</createdTime>
+<generatorID>22C758B2-CCC2-501E-BD2E-4B829C00CE75</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<listOfValues>
+<valueDef value="Female" description=""/>
+<valueDef value="Male" description=""/>
+<valueDef value="Other" description=""/>
+</listOfValues>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dob" id="CBFBC6F4-6E03-5965-E97D-4D48725FC999">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 13:10:05 UTC</createdTime>
+<generatorID>5D190F95-DF66-E3E0-FEF9-BBBA3341BAA2</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="381727EC-D785-E35C-7C70-2F22600392ED">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 13:10:05 UTC</createdTime>
+<generatorID>C2D33D92-2692-6BE3-8912-6C6DB3ACC67D</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="7EB92CB5-3607-72DA-458A-B8131331138A">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 13:10:05 UTC</createdTime>
+<generatorID>2831ABF0-82A5-741C-3EF7-E9266F4A4040</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3D306E6-C30D-A60B-8358-36BBC52D23E4" name="Person_PK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 13:10:05 UTC</createdTime>
+<generatorID>3A2FAAB0-1B70-F2ED-9FAA-5D14E8DF6285</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D9241D3-2C69-8CE5-2750-DB26201C8889"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

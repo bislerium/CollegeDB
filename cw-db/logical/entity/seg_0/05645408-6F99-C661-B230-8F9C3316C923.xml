@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="student id" id="C99EAFB3-3145-1868-FA43-88FD01AC24FC">
+<Attribute name="person id" id="C99EAFB3-3145-1868-FA43-88FD01AC24FC">
 <createdBy>bisha</createdBy>
 <createdTime>2022-03-17 21:31:20 UTC</createdTime>
 <generatorID>3AC8E927-E5B1-3B40-4776-2A6ED95BBCF3</generatorID>
@@ -93,14 +93,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B85C86E3-B66C-9214-985E-E8ABC579B850" name="Student Fee PK">
+<identifier id="B85C86E3-B66C-9214-985E-E8ABC579B850" name="SF PK">
 <createdBy>bisha</createdBy>
 <createdTime>2022-03-17 21:31:20 UTC</createdTime>
 <ownerDesignName>cw-db</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="false"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>C99EAFB3-3145-1868-FA43-88FD01AC24FC,250583C8-DA19-171A-EB05-E90579226E36,453E1B73-0CB8-11CF-D178-89E930A8E8E1</newElementsIDs>
 <usedAttributes>
 <attributeRef>C99EAFB3-3145-1868-FA43-88FD01AC24FC</attributeRef>
 <attributeRef>250583C8-DA19-171A-EB05-E90579226E36</attributeRef>

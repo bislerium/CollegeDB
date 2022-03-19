@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F5CD087-4358-5E80-4067-686CC328789A" name="Grade_Status">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 13:10:05 UTC</createdTime>
+<generatorID>57C4D8CA-D537-5703-8F0C-55A7E2CE4655</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="grade" id="4C854ECA-F132-1447-6702-D1CDD481380A">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 13:10:05 UTC</createdTime>
+<generatorID>004D29A5-7B30-E223-2CFB-CB2D4403C376</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="2718E318-906A-628E-3595-EA1AA2FCE4B7">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 13:10:05 UTC</createdTime>
+<generatorID>663DBE46-E397-19AF-55E7-7BCAAE0EA3B5</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<listOfValues>
+<valueDef value="" description=""/>
+<valueDef value="Fail" description=""/>
+<valueDef value="Pass" description=""/>
+</listOfValues>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0DB8C6A-9138-0B66-4F9E-D26E214C0B5D" name="Grade_Status_PK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 13:10:05 UTC</createdTime>
+<generatorID>53576F30-EDC7-3ECB-7A9C-F7D1EEE29DB9</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C854ECA-F132-1447-6702-D1CDD481380A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7070C10B-C128-4C90-D390-96B58C77A7F6" name="Student Module Assignment">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7070C10B-C128-4C90-D390-96B58C77A7F6" name="Assignment Result">
 <createdBy>bisha</createdBy>
 <createdTime>2022-03-17 20:27:25 UTC</createdTime>
 <generatorID>89CDF296-8D4D-E7BC-02E9-3F0A1CDBA750</generatorID>
@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="assignment_id" id="E10AE783-8B2B-9B76-0116-A1540499252C">
+<Attribute name="assignment id" id="E10AE783-8B2B-9B76-0116-A1540499252C">
 <createdBy>bisha</createdBy>
 <createdTime>2022-03-18 16:14:18 UTC</createdTime>
 <generatorID>0372FE11-71AE-24C2-C4C7-377A55A0BC95</generatorID>
@@ -30,41 +30,24 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="grade" id="EAC53064-836D-5DBF-C098-2C1D7A34FC04">
+<Attribute name="grade" id="DFA4B4A8-DB05-BAF7-C7F0-50A9A8199D7F">
 <createdBy>bisha</createdBy>
-<createdTime>2022-03-18 16:07:32 UTC</createdTime>
+<createdTime>2022-03-19 07:24:54 UTC</createdTime>
+<generatorID>EBB1217D-CA95-5B8E-AFF8-C9B5AEBA3F55</generatorID>
 <ownerDesignName>cw-db</ownerDesignName>
 <engineerTo>
 <item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>004D29A5-7B30-E223-2CFB-CB2D4403C376</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>2</dataTypeSize>
-<ownDataTypeParameters>2,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="status" id="E8750AC6-8486-791A-D9B1-4340726B8B3D">
-<createdBy>bisha</createdBy>
-<createdTime>2022-03-18 16:07:47 UTC</createdTime>
-<ownerDesignName>cw-db</ownerDesignName>
-<engineerTo>
-<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>4</dataTypeSize>
-<listOfValues>
-<valueDef value="Fail" description=""/>
-<valueDef value="Pass" description=""/>
-</listOfValues>
-<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="FA49C23A-458A-274C-4BB1-D1BB770DD9A6" name="Student Module Assignment PK">
+<identifier id="FA49C23A-458A-274C-4BB1-D1BB770DD9A6" name="SAM PK">
 <createdBy>bisha</createdBy>
 <createdTime>2022-03-18 16:11:24 UTC</createdTime>
 <ownerDesignName>cw-db</ownerDesignName>
@@ -72,8 +55,10 @@
 <item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>E10AE783-8B2B-9B76-0116-A1540499252C,EBB1217D-CA95-5B8E-AFF8-C9B5AEBA3F55</newElementsIDs>
 <usedAttributes>
 <attributeRef>E10AE783-8B2B-9B76-0116-A1540499252C</attributeRef>
+<attributeRef>DFA4B4A8-DB05-BAF7-C7F0-50A9A8199D7F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

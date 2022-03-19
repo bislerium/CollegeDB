@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="FA3F634B-6161-34F4-D144-769CAECC928F">
+<Attribute name="attendance id" id="FA3F634B-6161-34F4-D144-769CAECC928F">
 <createdBy>bisha</createdBy>
 <createdTime>2022-03-17 20:27:25 UTC</createdTime>
 <generatorID>6841A1C8-47BF-5B24-45B1-E127620AF423</generatorID>
@@ -29,7 +29,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="date" id="C3A4B02A-530D-53BB-35D4-1B1B92CFAA96">
+<Attribute name="attendance date" id="C3A4B02A-530D-53BB-35D4-1B1B92CFAA96">
 <createdBy>bisha</createdBy>
 <createdTime>2022-03-17 20:27:25 UTC</createdTime>
 <generatorID>992ACD81-6184-BF09-9BF7-0BF54028C938</generatorID>
@@ -42,7 +42,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="status" id="69C51319-2A1A-D4B1-AF71-B433C202D834">
+<Attribute name="attendance status" id="69C51319-2A1A-D4B1-AF71-B433C202D834">
 <createdBy>bisha</createdBy>
 <createdTime>2022-03-17 20:27:25 UTC</createdTime>
 <generatorID>D1EBCACF-CEAC-5334-D4F7-F7C055007057</generatorID>

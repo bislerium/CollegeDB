@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="C238A60F-DED7-B49D-B4F7-9E56894A03E6" containerWithKeyObject="6C1FCE99-6698-7C15-1AF0-2D06E0DC5E12" localFKIndex="B5EA732A-41D0-897D-5637-EFB9D60E0AAF" name="Assignment_Result_Grade_Status_FK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 13:10:05 UTC</createdTime>
+<generatorID>EBB1217D-CA95-5B8E-AFF8-C9B5AEBA3F55</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<referredTableLongName>Grade_Status</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1F5CD087-4358-5E80-4067-686CC328789A</referredTableID>
+<keyObject>B0DB8C6A-9138-0B66-4F9E-D26E214C0B5D</keyObject>
+<referredKeyID>B0DB8C6A-9138-0B66-4F9E-D26E214C0B5D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>grade</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

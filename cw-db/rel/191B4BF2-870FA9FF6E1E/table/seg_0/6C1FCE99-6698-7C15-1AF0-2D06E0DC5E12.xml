@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C1FCE99-6698-7C15-1AF0-2D06E0DC5E12" name="Assignment_Result">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 13:10:05 UTC</createdTime>
+<generatorID>7070C10B-C128-4C90-D390-96B58C77A7F6</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="assignment_id" id="3A051456-E7CB-985B-EAF2-92AB82F07EF9">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 13:10:05 UTC</createdTime>
+<generatorID>E10AE783-8B2B-9B76-0116-A1540499252C</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="211D3629-DDB2-C44E-5649-E3E51A31E439" referredColumn="583CD470-5C33-2BFB-CC5B-6AE18095C979"/>
+</associations>
+</Column>
+<Column name="grade" id="4661AAC4-554D-B542-4F1B-23F7E0CB1100">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 13:10:05 UTC</createdTime>
+<generatorID>DFA4B4A8-DB05-BAF7-C7F0-50A9A8199D7F</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C238A60F-DED7-B49D-B4F7-9E56894A03E6" referredColumn="4C854ECA-F132-1447-6702-D1CDD481380A"/>
+</associations>
+</Column>
+<Column name="Module_Enrolment_Module_Enrolment_ID" id="46E41043-EAD9-C532-C61E-A3AA1909A21C">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 13:10:05 UTC</createdTime>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="839C9393-680D-89CC-18FB-E07178B4CAF1" referredColumn="05FEC4ED-CF10-4D9C-FBE6-CCDACC05B360"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82C7F44A-55DE-8E79-8465-30400108A8E0" name="Assignment_Result_PK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 13:10:05 UTC</createdTime>
+<generatorID>FA49C23A-458A-274C-4BB1-D1BB770DD9A6</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46E41043-EAD9-C532-C61E-A3AA1909A21C"/>
+<colUsage columnID="3A051456-E7CB-985B-EAF2-92AB82F07EF9"/>
+<colUsage columnID="4661AAC4-554D-B542-4F1B-23F7E0CB1100"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5EA732A-41D0-897D-5637-EFB9D60E0AAF" name="Assignment_Result_Grade_Status_FK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 13:10:05 UTC</createdTime>
+<generatorID>EBB1217D-CA95-5B8E-AFF8-C9B5AEBA3F55</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4661AAC4-554D-B542-4F1B-23F7E0CB1100"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42F92CC6-BFAC-1B3F-3A4E-B0C1F50BB3AF" name="Assignment_Result_Module_Enrolment_FK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 13:10:05 UTC</createdTime>
+<generatorID>6207841B-A9C6-C4BD-A721-779D05DE58F3</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46E41043-EAD9-C532-C61E-A3AA1909A21C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA6D3028-D629-0F0B-1D2E-5EACCEB61E77" name="Assignment_Result_Assignment_FK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 13:10:05 UTC</createdTime>
+<generatorID>0372FE11-71AE-24C2-C4C7-377A55A0BC95</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A051456-E7CB-985B-EAF2-92AB82F07EF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="352B8359-A497-22D2-4EED-BCE55AFD46D2">
+<Attribute name="address id" id="352B8359-A497-22D2-4EED-BCE55AFD46D2">
 <createdBy>bisha</createdBy>
 <createdTime>2022-03-17 20:32:02 UTC</createdTime>
 <ownerDesignName>cw-db</ownerDesignName>

@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="63CD7EC2-8399-DEA9-6BF8-E425246D909A">
+<Attribute name="assignment id" id="63CD7EC2-8399-DEA9-6BF8-E425246D909A">
 <createdBy>bisha</createdBy>
 <createdTime>2022-03-17 20:27:25 UTC</createdTime>
 <generatorID>E00491A3-E82E-EE7B-3329-83B5EAAC63D6</generatorID>
@@ -29,7 +29,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="type" id="E1D2050D-F5E2-822E-81F0-4EBBB16DB8DF">
+<Attribute name="assignment type" id="E1D2050D-F5E2-822E-81F0-4EBBB16DB8DF">
 <createdBy>bisha</createdBy>
 <createdTime>2022-03-17 20:27:25 UTC</createdTime>
 <generatorID>BB7420F5-C860-C09C-C90E-F21BE350DA20</generatorID>
@@ -59,7 +59,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="56ED860A-73AD-8E44-CFE6-956FCCB0A03B" name="Assignment PK">
+<identifier id="56ED860A-73AD-8E44-CFE6-956FCCB0A03B" name="A PK">
 <createdBy>bisha</createdBy>
 <createdTime>2022-03-17 20:27:25 UTC</createdTime>
 <generatorID>02FD5113-B326-1F22-04BA-349C04DF4BBC</generatorID>
@@ -69,6 +69,7 @@
 <item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="false"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>63CD7EC2-8399-DEA9-6BF8-E425246D909A</newElementsIDs>
 <usedAttributes>
 <attributeRef>63CD7EC2-8399-DEA9-6BF8-E425246D909A</attributeRef>
 </usedAttributes>

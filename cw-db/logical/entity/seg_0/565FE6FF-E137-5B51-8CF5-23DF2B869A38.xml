@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="7356901B-AC15-0285-E898-26B670062270">
+<Attribute name="module id" id="7356901B-AC15-0285-E898-26B670062270">
 <createdBy>bisha</createdBy>
 <createdTime>2022-03-17 20:27:25 UTC</createdTime>
 <generatorID>63C2D88E-72C5-CCB6-01D9-7FEDB2A3388E</generatorID>
@@ -29,7 +29,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="code" id="56AB5079-3807-1E8C-4CF9-E7074E229D81">
+<Attribute name="module code" id="56AB5079-3807-1E8C-4CF9-E7074E229D81">
 <createdBy>bisha</createdBy>
 <createdTime>2022-03-17 20:27:25 UTC</createdTime>
 <generatorID>FDA260B0-72B7-44AC-468F-39A0B8C9B5E5</generatorID>
@@ -43,7 +43,7 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="name" id="13640707-0B99-E1E1-5ECC-C4216244C647">
+<Attribute name="module name" id="13640707-0B99-E1E1-5ECC-C4216244C647">
 <createdBy>bisha</createdBy>
 <createdTime>2022-03-17 20:27:25 UTC</createdTime>
 <generatorID>0F7D07FF-EBFD-33E0-CF9F-A8229CEB4E95</generatorID>
@@ -57,14 +57,13 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="duration in weeks" id="95B3E86F-90BB-0078-431A-1D2210927ACA">
+<Attribute name="week_duration" id="95B3E86F-90BB-0078-431A-1D2210927ACA">
 <createdBy>bisha</createdBy>
 <createdTime>2022-03-18 18:09:33 UTC</createdTime>
 <ownerDesignName>cw-db</ownerDesignName>
 <engineerTo>
 <item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT042</logicalDatatype>
@@ -85,7 +84,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B97B6A67-9B3D-9597-83C6-B9689661D90B" name="Module PK">
+<identifier id="B97B6A67-9B3D-9597-83C6-B9689661D90B" name="M PK">
 <createdBy>bisha</createdBy>
 <createdTime>2022-03-17 20:27:25 UTC</createdTime>
 <generatorID>7729CA2C-C1F2-A9A3-F8CC-CD8917BE99A2</generatorID>
@@ -95,6 +94,7 @@
 <item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="false"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>7356901B-AC15-0285-E898-26B670062270</newElementsIDs>
 <usedAttributes>
 <attributeRef>7356901B-AC15-0285-E898-26B670062270</attributeRef>
 </usedAttributes>
