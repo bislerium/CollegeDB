@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SF_Fee_FK" directorySegmentName="seg_1" id="82DB36E6-017E-7B89-3122-4637685C4A82">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 19:03:02 UTC</createdTime>
+<generatorID>20F857E0-BF15-5BF4-8A2D-6291C52CAC23</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<sourcePk>FF017A72-BC66-FD88-2912-AB87F2AA7C73</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BA559DE9-7273-690E-B900-1C6563B55049</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>370E4899-4770-0ECD-A3BC-D9DB5008DF6D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

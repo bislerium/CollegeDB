@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA5105AD-3E68-2B1B-CA6B-5F29FE854D7E" name="Module_Enrolment">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>835142B8-16DD-43E7-4F48-599D6D9A843B</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="student_id" id="6319BDF4-FAA8-B5BC-B234-7FB4DF6B07FF">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>B1EEB625-BBF5-A791-C2B4-C455E84C08F0</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="214817AC-F777-8AC6-1D93-D7C4E7283305" referredColumn="F268C0B0-E8C7-F303-D365-BB45C6F3D5CF"/>
+</associations>
+</Column>
+<Column name="module_id" id="B487B4AA-784D-32FF-E738-113E4895BAAD">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>0FF65B2C-8051-12BB-1647-CE5B4A851A54</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61F4BE2D-EE97-099C-4E19-031B7E76A023" referredColumn="7F74CE59-71CF-24E3-23DA-D1FB9A6AE181"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="535D7904-4CF0-171A-5637-6A4BBA0F2715" name="Module_Enrolment_PK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>1595C0CB-09ED-7570-D8A5-CEFC470C10F7</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6319BDF4-FAA8-B5BC-B234-7FB4DF6B07FF"/>
+<colUsage columnID="B487B4AA-784D-32FF-E738-113E4895BAAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3ABC4DA-127C-6937-6D34-DFF4CA950C35" name="ME_Module_FK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>C5519A2C-3014-3103-01B0-204EBA2E98B3</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B487B4AA-784D-32FF-E738-113E4895BAAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="294ABA25-1B3C-5C20-C860-FF7826E0DFF7" name="ME_Student_FK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>BF65788E-C1AB-D74C-E334-3948D36AAFA0</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6319BDF4-FAA8-B5BC-B234-7FB4DF6B07FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

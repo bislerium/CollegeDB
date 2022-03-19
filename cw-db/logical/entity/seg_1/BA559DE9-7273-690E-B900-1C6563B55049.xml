@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_1" id="BA559DE9-7273-690E-B900-1C6563B55049" name="Fee">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 19:03:02 UTC</createdTime>
+<generatorID>0F03FF88-F831-DA71-DC81-B5FC8FDAF978</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fee id" id="AD1DABAD-99E2-9174-A57A-9EE35440AC38">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 19:03:02 UTC</createdTime>
+<generatorID>B64B7038-7C46-3E12-6AA2-9A0AD0DD515B</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fee type" id="F85DE022-2A5B-4C11-4B21-F398EDFA3B93">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 19:03:02 UTC</createdTime>
+<generatorID>2F3C3892-29E4-56F3-BF37-46C5F7ADBD6D</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fee amount" id="CB72B3FA-50CA-DFC8-1901-FD04A868F0E3">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 19:03:02 UTC</createdTime>
+<generatorID>39C27A38-7924-D95C-7290-6CDAF92B8C76</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT044</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="department id" id="B26F811E-C1D9-07C6-5DE0-8EF026D7CE90">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 19:03:02 UTC</createdTime>
+<generatorID>724BE392-C0BD-76F4-0DF6-BF9B51D69EBB</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<referedAttribute>4E0F885B-1934-355D-A2BD-504025EFDFD4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FF017A72-BC66-FD88-2912-AB87F2AA7C73" name="Fee PK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 19:03:02 UTC</createdTime>
+<generatorID>BE652F3C-CC1D-399F-D303-432E21918EA9</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AD1DABAD-99E2-9174-A57A-9EE35440AC38</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

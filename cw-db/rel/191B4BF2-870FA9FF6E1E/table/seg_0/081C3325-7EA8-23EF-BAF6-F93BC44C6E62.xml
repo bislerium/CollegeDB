@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="081C3325-7EA8-23EF-BAF6-F93BC44C6E62" name="Student_Attendance">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>DB8496BC-1D70-7108-4697-E833C0590028</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="student_id" id="64640CDA-B47E-ADC5-52D7-6F9D48D65928">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>9366D81F-6D00-AF7E-52C6-5268903B4E63</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="169FF374-ADBE-148C-0F37-9527B6131EBE" referredColumn="F268C0B0-E8C7-F303-D365-BB45C6F3D5CF"/>
+</associations>
+</Column>
+<Column name="attendance_id" id="6CFA18CE-FEFA-5F9E-CC1F-21E77E4A0F21">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>56395A99-D33C-EC38-0DD2-F5501A1C601D</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F37FE81C-FB70-D495-3EE5-5162309C8E8F" referredColumn="4C2B774F-7FC2-8B10-33E1-5C13CF8A4BAF"/>
+</associations>
+</Column>
+<Column name="attendance_status" id="A5723C8E-27F6-4C67-6914-1413CFA0631F">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>EBB90FDB-03FA-C1A6-B3A1-3235C2D1AB92</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<listOfValues>
+<valueDef value="Absent" description=""/>
+<valueDef value="Present" description=""/>
+</listOfValues>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF28238C-6B42-3F87-5695-4B392759E4BC" name="Student_Attendance_PK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>BC190294-CE02-088C-7C90-3B9344E9005F</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64640CDA-B47E-ADC5-52D7-6F9D48D65928"/>
+<colUsage columnID="6CFA18CE-FEFA-5F9E-CC1F-21E77E4A0F21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6DB940C-8640-1B43-CAB1-8F75AB8FF81B" name="SA_Attendance_FK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>6D7D378A-9A2A-FEFE-0094-117A026A8E5B</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CFA18CE-FEFA-5F9E-CC1F-21E77E4A0F21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A038A66-C595-DA40-F668-AFF0C38ADC2E" name="SA_Student_FK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>5871CB74-A5B7-305E-290E-3924B52F6059</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64640CDA-B47E-ADC5-52D7-6F9D48D65928"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

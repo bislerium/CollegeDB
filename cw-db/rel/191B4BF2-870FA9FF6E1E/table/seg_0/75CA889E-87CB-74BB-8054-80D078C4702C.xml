@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75CA889E-87CB-74BB-8054-80D078C4702C" name="Assignment_Result">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>636E9A8F-4CE1-69B2-D60F-062FCC5805D8</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="student_id" id="86F8FFA5-A881-1803-93FB-15BBD83427D8">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>0D6743F0-C891-4266-1CD1-5EB093F07F45</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A8C6DE1-D463-DD3C-78D8-B0EB1BF2444E" referredColumn="6319BDF4-FAA8-B5BC-B234-7FB4DF6B07FF"/>
+</associations>
+</Column>
+<Column name="module_id" id="450E5B37-2BEA-0FE1-E305-535757DED24B">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>12B2B801-87C6-9811-4467-601E5563FC49</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A8C6DE1-D463-DD3C-78D8-B0EB1BF2444E" referredColumn="B487B4AA-784D-32FF-E738-113E4895BAAD"/>
+</associations>
+</Column>
+<Column name="assignment_id" id="9C39D81C-03D0-F7B4-1B52-F01AC3A813DC">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>0E2D23AD-2A91-A07F-A23B-3FEBEA6DFC6C</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30E0E59E-EA2D-CB69-5795-3309DFF69679" referredColumn="1E73966C-2205-54F5-2261-E12C33088238"/>
+</associations>
+</Column>
+<Column name="grade" id="5FF39F3C-0523-3804-CA3F-8CC20B535870">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>5C6A6808-45E4-3102-C527-FB43D60628B1</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5862E93-79B6-645B-D551-F873B2100A95" referredColumn="7B143348-3DE3-5874-6DAA-E1DF01E894BB"/>
+</associations>
+</Column>
+<Column name="post_date" id="027E8DA5-2E77-5E34-4CB7-E20A1E0D0C26">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>2EF0244D-F8D6-6A2A-E909-A969D04AE7B1</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="474B076D-5E1A-96B4-3809-143468110AB5" name="Assignment_Result_PK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>F9B8EC0E-483B-6D76-6002-092FD1D5CF36</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C39D81C-03D0-F7B4-1B52-F01AC3A813DC"/>
+<colUsage columnID="86F8FFA5-A881-1803-93FB-15BBD83427D8"/>
+<colUsage columnID="450E5B37-2BEA-0FE1-E305-535757DED24B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D37F956-84C1-3F94-D233-267AAFA0EE98" name="AR_Assignment_FK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>5E10FEE1-643C-08BA-ACC1-A32457469364</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C39D81C-03D0-F7B4-1B52-F01AC3A813DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D03CB19-41E0-7B51-7D1E-977B1167FDBD" name="AR_Grade_Status_FK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>EED67587-34CB-ABD7-79A4-B43FAFDD6C31</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FF39F3C-0523-3804-CA3F-8CC20B535870"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0402F93A-4D6C-5D29-78AC-EBD84B963832" name="AR_Module_Enrolment_FK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>889874D4-2369-7753-C5B4-55AF9F4B6A14</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86F8FFA5-A881-1803-93FB-15BBD83427D8"/>
+<colUsage columnID="450E5B37-2BEA-0FE1-E305-535757DED24B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

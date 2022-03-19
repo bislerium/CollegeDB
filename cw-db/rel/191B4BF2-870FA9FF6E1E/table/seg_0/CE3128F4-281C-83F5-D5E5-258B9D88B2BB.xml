@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE3128F4-281C-83F5-D5E5-258B9D88B2BB" name="Person">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>2964533C-A4DB-C08E-C779-6C73D9A7C370</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_id" id="D531EE9F-4DB3-BA74-7799-9201A33E4717">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>96F3A37A-BA27-6FC4-4110-EE671D262379</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="person_type" id="A0E1EB67-42DD-4E6F-F458-C2306998D016">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>652D62F4-2ECD-B709-E24D-BEE0FF373D17</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="full_name" id="EA45253B-E1E9-ADEF-C12D-329125B13A6B">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>29530C6E-A587-13F3-C500-C9A6D6261A9A</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="83530291-8C2C-BBAC-27C5-6EA3007A5898">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>876D3C3C-3694-5965-6169-2F9A73ACFEC3</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<listOfValues>
+<valueDef value="Female" description=""/>
+<valueDef value="Male" description=""/>
+<valueDef value="Other" description=""/>
+</listOfValues>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dob" id="21A52632-14DC-3165-EA57-1AFD02C21564">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>BC039176-1100-D13B-BD66-3F4591F215FF</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="2CBBF007-37CF-2CA9-BE67-E48382B5D4DC">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 18:57:25 UTC</createdTime>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="5AD350CB-B1A3-E106-D1E0-B0EDB376B224">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>E10506A0-4E19-2620-5C8D-43793A8056E1</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="693302A6-4AA0-077C-1803-928A3AF2F92F">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>E06B8865-7F6E-FFC8-7CD0-70F33C6A66FD</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="028CD115-B0AC-ECEE-53B0-C35921F265DB" name="Person_PK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:50:03 UTC</createdTime>
+<generatorID>636A8BC8-CBBF-E988-E3FC-D93F354D8702</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D531EE9F-4DB3-BA74-7799-9201A33E4717"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FDCCCF1E-E60F-2CEE-7262-348A9C126C0F" name="Person_Email_UN">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 19:01:42 UTC</createdTime>
+<ownerDesignName>cw-db</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5AD350CB-B1A3-E106-D1E0-B0EDB376B224"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A145949-FCD2-B074-C9A2-4E5356B64AA2" name="Person_Phone_UN">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 19:01:42 UTC</createdTime>
+<ownerDesignName>cw-db</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CBBF007-37CF-2CA9-BE67-E48382B5D4DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
