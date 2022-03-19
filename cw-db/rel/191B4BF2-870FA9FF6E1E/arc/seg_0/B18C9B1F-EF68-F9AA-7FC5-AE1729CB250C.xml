@@ -1,11 +1,12 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="B18C9B1F-EF68-F9AA-7FC5-AE1729CB250C" name="FKArc_9">
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="B18C9B1F-EF68-F9AA-7FC5-AE1729CB250C" name="FKArc">
 <createdBy>bisha</createdBy>
 <createdTime>2022-03-19 14:48:57 UTC</createdTime>
 <ownerDesignName>cw-db</ownerDesignName>
-<mandatory>false</mandatory>
+<mandatory>true</mandatory>
 <reverseArc>true</reverseArc>
 <table>382AC6DF-22FA-B439-0C15-B6C640213678</table>
+<discriminatorColumn>CA217597-2BBA-8600-5326-8F5B090AF893</discriminatorColumn>
 <fkeys>
 <fkeyID>62E8C107-626E-2A97-BFA7-7240D239ED76</fkeyID>
 <fkeyID>483F7BAE-DCEA-7507-3FF4-4B1EAA5F6641</fkeyID>

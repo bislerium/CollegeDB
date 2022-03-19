@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="97B01E4D-D227-DA2B-C44B-009014E3C912" name="Attendance">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:42:55 UTC</createdTime>
+<generatorID>0C550DB0-A843-A106-C74D-3195B88B6582</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="attendance id" id="ECB24B53-0BA8-66AA-B919-7C20513983E7">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:42:55 UTC</createdTime>
+<generatorID>80F273C9-16C4-92C4-0598-C3472CD5CB83</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="attendance date" id="44D14DBB-633E-02E0-EC01-6D774A6CCCD6">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:42:55 UTC</createdTime>
+<generatorID>0CE27E27-2068-1D89-0545-0ED74C4EDCF9</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="department id" id="E5D963E6-4F1A-8B13-CEAC-79DC1EB5BCC5">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:42:55 UTC</createdTime>
+<generatorID>40ECDCDF-36CC-898A-6067-FDE50417B91A</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<referedAttribute>C13C3ED1-F3EE-E2BD-6D2C-13129A534B11</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="78B486B4-667D-64D2-76A2-67CD53609B20" name="Attendance PK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:42:55 UTC</createdTime>
+<generatorID>722E467D-695E-748A-ADBD-E631ED77BC6C</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ECB24B53-0BA8-66AA-B919-7C20513983E7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

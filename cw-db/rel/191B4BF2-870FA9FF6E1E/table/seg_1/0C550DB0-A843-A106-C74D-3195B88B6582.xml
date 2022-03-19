@@ -30,22 +30,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="attendance_status" id="012B9C08-4733-C776-C73B-00BD705BDF69">
-<createdBy>bisha</createdBy>
-<createdTime>2022-03-19 14:48:57 UTC</createdTime>
-<generatorID>69C51319-2A1A-D4B1-AF71-B433C202D834</generatorID>
-<ownerDesignName>cw-db</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>8</dataTypeSize>
-<listOfValues>
-<valueDef value="Absent" description=""/>
-<valueDef value="Present" description=""/>
-</listOfValues>
-<ownDataTypeParameters>8,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="department_id" id="879748D4-5A24-E397-8B60-6A501798E9F1">
 <createdBy>bisha</createdBy>
 <createdTime>2022-03-19 14:48:57 UTC</createdTime>
@@ -75,7 +59,7 @@
 <colUsage columnID="80F273C9-16C4-92C4-0598-C3472CD5CB83"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F35BF0CE-5AC8-3280-440A-C1AADD2C5223" name="A_Department_FKv2">
+<ind_PK_UK id="F35BF0CE-5AC8-3280-440A-C1AADD2C5223" name="A_Department_FKv1">
 <createdBy>bisha</createdBy>
 <createdTime>2022-03-19 14:48:57 UTC</createdTime>
 <generatorID>79A33701-BD13-F423-3BD8-FA04B7CB697E</generatorID>

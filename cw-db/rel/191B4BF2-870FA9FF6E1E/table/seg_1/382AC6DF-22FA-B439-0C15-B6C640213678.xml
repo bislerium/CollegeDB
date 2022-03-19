@@ -19,6 +19,17 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="person_type" id="CA217597-2BBA-8600-5326-8F5B090AF893">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 15:13:15 UTC</createdTime>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="full_name" id="65E0F081-1772-073F-B1FF-AB696E777EE5">
 <createdBy>bisha</createdBy>
 <createdTime>2022-03-19 14:48:57 UTC</createdTime>

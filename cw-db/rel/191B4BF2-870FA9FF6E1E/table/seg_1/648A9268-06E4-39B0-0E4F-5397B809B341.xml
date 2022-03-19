@@ -38,29 +38,11 @@
 <colAssociation fkAssociation="B10FC1CF-4440-AE88-6053-CD755FB6D54F" referredColumn="AF8CBC91-9782-9F4B-77D8-F278ECAFA269"/>
 </associations>
 </Column>
-<Column name="status" id="5501722F-13CF-A8F8-0482-4633B65A9F79">
-<createdBy>bisha</createdBy>
-<createdTime>2022-03-19 14:48:57 UTC</createdTime>
-<generatorID>89287566-3886-BED2-CE8A-AE029336FB3D</generatorID>
-<ownerDesignName>cw-db</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>4</dataTypeSize>
-<listOfValues>
-<valueDef value="Due" description=""/>
-<valueDef value="Paid" description=""/>
-</listOfValues>
-<defaultValue>N</defaultValue>
-<ownDataTypeParameters>4,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="payment_date" id="5CB54572-1E92-2F2B-EB26-58151096A2E0">
 <createdBy>bisha</createdBy>
 <createdTime>2022-03-19 14:48:57 UTC</createdTime>
 <generatorID>5E3BCC8A-834A-E964-08DC-7B9B47EF87F1</generatorID>
 <ownerDesignName>cw-db</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>

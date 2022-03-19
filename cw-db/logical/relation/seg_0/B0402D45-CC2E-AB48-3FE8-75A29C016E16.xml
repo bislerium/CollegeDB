@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AR_Module_Enrolment_FK" directorySegmentName="seg_0" id="B0402D45-CC2E-AB48-3FE8-75A29C016E16">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:42:55 UTC</createdTime>
+<generatorID>A2CB3637-EB09-1F29-28B3-2F532D2472E4</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>506F4080-A600-927C-B769-33703D6F1CB0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B088B3A4-7155-0BD1-F227-E058BBB4E667</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -38,6 +38,21 @@
 <colAssociation fkAssociation="49CC51C5-EECD-F6C2-84A1-3144DF919173" referredColumn="80F273C9-16C4-92C4-0598-C3472CD5CB83"/>
 </associations>
 </Column>
+<Column name="attendance_status" id="11A0ABBE-F9C1-8C85-42DF-020DA26F0931">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:16:09 UTC</createdTime>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<listOfValues>
+<valueDef value="Absent" description=""/>
+<valueDef value="Present" description=""/>
+</listOfValues>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="84E21132-A743-DB81-97AF-2D6C1497E0A8" name="Student_Attendance_PK">

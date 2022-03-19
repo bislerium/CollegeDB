@@ -14,5 +14,6 @@
 <refColNames>person_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
+<discriminatorValue>Student</discriminatorValue>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
 </FKIndexAssociation>

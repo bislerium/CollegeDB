@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SA_Attendance_FK" directorySegmentName="seg_0" id="BDBB0A52-2018-D88C-47D1-ACA8991C861C">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 17:42:55 UTC</createdTime>
+<generatorID>49CC51C5-EECD-F6C2-84A1-3144DF919173</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<sourcePk>78B486B4-667D-64D2-76A2-67CD53609B20</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>97B01E4D-D227-DA2B-C44B-009014E3C912</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BDA4629F-BFC6-4CB3-8F62-B58A4C21022D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
