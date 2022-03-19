@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="648A9268-06E4-39B0-0E4F-5397B809B341" name="Student_Fee">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 14:48:57 UTC</createdTime>
+<generatorID>05645408-6F99-C661-B230-8F9C3316C923</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_id" id="C0AAC696-1C9C-1F39-C1AB-E942A00EF951">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 14:48:57 UTC</createdTime>
+<generatorID>C99EAFB3-3145-1868-FA43-88FD01AC24FC</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F585DC6-6A23-3139-7029-6AA853FFAB40" referredColumn="B8CFEDCB-09F5-21FC-DF08-D08DA9E0B3F8"/>
+</associations>
+</Column>
+<Column name="fee_id" id="DB1929DB-5DBE-CE89-1606-6F7183C75723">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 14:48:57 UTC</createdTime>
+<generatorID>250583C8-DA19-171A-EB05-E90579226E36</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B10FC1CF-4440-AE88-6053-CD755FB6D54F" referredColumn="AF8CBC91-9782-9F4B-77D8-F278ECAFA269"/>
+</associations>
+</Column>
+<Column name="status" id="5501722F-13CF-A8F8-0482-4633B65A9F79">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 14:48:57 UTC</createdTime>
+<generatorID>89287566-3886-BED2-CE8A-AE029336FB3D</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<listOfValues>
+<valueDef value="Due" description=""/>
+<valueDef value="Paid" description=""/>
+</listOfValues>
+<defaultValue>N</defaultValue>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payment_date" id="5CB54572-1E92-2F2B-EB26-58151096A2E0">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 14:48:57 UTC</createdTime>
+<generatorID>5E3BCC8A-834A-E964-08DC-7B9B47EF87F1</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B33934E-EF52-1185-0843-B4CA73B1C3AC" name="Student_Fee_PK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 14:48:57 UTC</createdTime>
+<generatorID>B85C86E3-B66C-9214-985E-E8ABC579B850</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0AAC696-1C9C-1F39-C1AB-E942A00EF951"/>
+<colUsage columnID="DB1929DB-5DBE-CE89-1606-6F7183C75723"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84E329DF-E620-4FCC-646E-BFAC8A2F2E6A" name="SF_Student_FK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 14:48:57 UTC</createdTime>
+<generatorID>3AC8E927-E5B1-3B40-4776-2A6ED95BBCF3</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0AAC696-1C9C-1F39-C1AB-E942A00EF951"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B636F402-BC05-E405-1478-33D979D1F3E9" name="SF_Fee_FK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-19 14:48:57 UTC</createdTime>
+<generatorID>83177AF0-8FCE-FA48-7828-AC6183501786</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB1929DB-5DBE-CE89-1606-6F7183C75723"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
