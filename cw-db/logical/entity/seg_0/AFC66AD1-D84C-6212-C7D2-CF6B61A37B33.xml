@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AFC66AD1-D84C-6212-C7D2-CF6B61A37B33" name="Teacher">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-20 19:27:03 UTC</createdTime>
+<generatorID>73F618C1-A142-D148-9311-76BAA6687DA8</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="teacher id" id="FC6614C9-46D2-AF08-0D87-AD37C37EEC8F">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-20 19:27:03 UTC</createdTime>
+<generatorID>E218E902-35C8-7614-2BA4-82AE665E61C3</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<referedAttribute>0EFB0868-BA14-075B-F95F-9FE4ED677ED7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salary" id="FFC6F5FF-1CF4-D199-9380-0961D3385B0A">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-20 19:27:03 UTC</createdTime>
+<generatorID>CDA6CF92-130B-FC6B-A3C3-6E654D725125</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT044</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date joined" id="0822B3E7-DE45-8077-39EB-8857675C7098">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-20 19:27:03 UTC</createdTime>
+<generatorID>3573157F-EA87-226C-F636-0F9AAB9E1C83</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B039CB90-A992-0164-33E8-35CB4DFF7D70" name="Teacher PK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-20 19:27:03 UTC</createdTime>
+<generatorID>7F78D50A-F9DA-1B9B-8FD4-0BF0138FD442</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FC6614C9-46D2-AF08-0D87-AD37C37EEC8F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

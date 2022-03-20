@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="AR_Grade_Status_FK" directorySegmentName="seg_0" id="D2DB85AE-5D08-07BE-C7DC-80492BB4A945">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-20 19:27:03 UTC</createdTime>
+<generatorID>D5862E93-79B6-645B-D551-F873B2100A95</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<sourcePk>6033D365-3AB6-1CA2-5FB8-BF03E8F5C151</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>96892F38-7852-5797-581B-D7932E5BD1AE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>70C724B2-3784-E39E-AD88-68C8B76764BE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

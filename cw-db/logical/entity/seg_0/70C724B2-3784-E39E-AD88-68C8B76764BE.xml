@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="70C724B2-3784-E39E-AD88-68C8B76764BE" name="Assignment Result">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-20 19:27:03 UTC</createdTime>
+<generatorID>75CA889E-87CB-74BB-8054-80D078C4702C</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="student id" id="98200AD7-B2B8-84A6-6676-E08F85B829D6">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-20 19:27:03 UTC</createdTime>
+<generatorID>98C943A3-A131-3ED4-4782-CE1BA8DBE044</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<referedAttribute>4EBC4D8F-2D52-4C0A-4C4D-6C6CAE35AC9B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="module id" id="9DB9395C-C041-DEF7-5021-4BC2248AE924">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-20 19:27:03 UTC</createdTime>
+<generatorID>98C943A3-A131-3ED4-4782-CE1BA8DBE044</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<referedAttribute>4A965A69-92C6-4BF6-4250-400D50CB2DDC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="assignment id" id="C8F719F6-038B-B7AD-3BC0-5B99AE8A98E1">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-20 19:27:03 UTC</createdTime>
+<generatorID>0AF2DF83-B05F-4122-EDF3-493C7236B069</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<referedAttribute>197785D8-706A-5622-4B4C-53D024B212DC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grade" id="2F9B6D53-290D-2E51-C040-8A731C701D02">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-20 19:27:03 UTC</createdTime>
+<generatorID>D2DB85AE-5D08-07BE-C7DC-80492BB4A945</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<referedAttribute>C6B311FC-D1FF-B357-8C07-B69427D9D795</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="post date" id="F4503CB3-9305-3202-129E-4276B6CB32A6">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-20 19:27:03 UTC</createdTime>
+<generatorID>027E8DA5-2E77-5E34-4CB7-E20A1E0D0C26</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AE59E94B-63D0-D5E5-F7A9-7D83DAA6A559" name="Assignment Result PK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-20 19:27:03 UTC</createdTime>
+<generatorID>474B076D-5E1A-96B4-3809-143468110AB5</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C8F719F6-038B-B7AD-3BC0-5B99AE8A98E1</attributeRef>
+<attributeRef>98200AD7-B2B8-84A6-6676-E08F85B829D6</attributeRef>
+<attributeRef>9DB9395C-C041-DEF7-5021-4BC2248AE924</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

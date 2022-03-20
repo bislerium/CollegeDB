@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4760CA6B-96CA-F582-8CAF-20B0AFF21D19" name="Student Fee">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-20 19:27:03 UTC</createdTime>
+<generatorID>BABA334F-8602-A955-6DE8-B857C81716EC</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="student id" id="E6B7EF59-C957-4CDE-8C0F-BD7F3DC57517">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-20 19:27:03 UTC</createdTime>
+<generatorID>FF87E2DF-C589-BF3F-4AC3-22CBF506B57E</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<referedAttribute>2EAC5136-557F-9D50-D468-251C142ED251</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fee id" id="9A74B458-E4E3-2C67-03DB-D13129D8B61D">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-20 19:27:03 UTC</createdTime>
+<generatorID>CFDF6C3C-B174-877A-BB22-2C7CD58F7D2D</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<referedAttribute>34C73E20-0DF3-5A57-1704-9E3866F455CA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="payment date" id="71E6D55E-AED2-9FC6-40E7-3AD741EBAB70">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-20 19:27:03 UTC</createdTime>
+<generatorID>4650DBC0-C67F-0651-D85F-86F2DA5FB4A4</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AB793B73-1CBD-8422-0FAA-77303D390594" name="Student Fee PK">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-20 19:27:03 UTC</createdTime>
+<generatorID>20990553-B984-0279-7314-BD72B6CB796F</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E6B7EF59-C957-4CDE-8C0F-BD7F3DC57517</attributeRef>
+<attributeRef>9A74B458-E4E3-2C67-03DB-D13129D8B61D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

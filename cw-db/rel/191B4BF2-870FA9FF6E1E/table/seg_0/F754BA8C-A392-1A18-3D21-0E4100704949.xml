@@ -16,8 +16,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>2</dataTypeSize>
-<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="status" id="C4FA80FE-5B89-B8A3-5DFA-7058BE2D9B8A">
@@ -28,12 +28,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>4</dataTypeSize>
+<dataTypeSize>4 CHAR</dataTypeSize>
 <listOfValues>
 <valueDef value="Fail" description=""/>
 <valueDef value="Pass" description=""/>
 </listOfValues>
-<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

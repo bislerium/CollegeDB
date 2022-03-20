@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="F_Department_FK" directorySegmentName="seg_0" id="F8FA5074-1352-BA65-0107-BC99142BB788">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-20 19:27:03 UTC</createdTime>
+<generatorID>1539031A-ED16-5392-CBC8-8EE28740F04C</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<sourcePk>9F673E4C-8922-C62E-42B4-428CA104C09E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>60629D81-246A-CC76-6F61-1C1FAD264A46</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F36A1230-8FBC-6956-2E7C-6CD075DEDC63</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

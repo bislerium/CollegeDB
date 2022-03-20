@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SF_Student_FK" directorySegmentName="seg_0" id="FF87E2DF-C589-BF3F-4AC3-22CBF506B57E">
+<createdBy>bisha</createdBy>
+<createdTime>2022-03-20 19:27:03 UTC</createdTime>
+<generatorID>D394CA5C-7AD6-4FE8-A719-BAC7D00DA3C7</generatorID>
+<ownerDesignName>cw-db</ownerDesignName>
+<engineerTo>
+<item key="191B4BF2-398F-45F2-D4C0-870FA9FF6E1E" value="true"/>
+</engineerTo>
+<sourcePk>6457A9FE-07E8-E96D-2DE6-26999126FC25</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F7B35A95-32B5-0E81-772E-99B2B31B30B1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4760CA6B-96CA-F582-8CAF-20B0AFF21D19</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

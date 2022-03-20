@@ -46,12 +46,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>8</dataTypeSize>
+<dataTypeSize>8 CHAR</dataTypeSize>
 <listOfValues>
 <valueDef value="Absent" description=""/>
 <valueDef value="Present" description=""/>
 </listOfValues>
-<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

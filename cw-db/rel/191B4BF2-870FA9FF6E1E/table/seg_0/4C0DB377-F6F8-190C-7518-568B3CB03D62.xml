@@ -31,8 +31,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60</dataTypeSize>
-<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="group" id="809A62E3-F26A-96BD-FAA0-62B123F5454A">
@@ -43,8 +43,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="date_joined" id="F235467F-D5F8-B199-D8AA-F668348394EB">
