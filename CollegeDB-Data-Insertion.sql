@@ -1,29 +1,29 @@
 -- Address data insertion
 INSERT ALL
-    INTO Address VALUES (1, 'Nepal', 'Lumbini', 'Butwal', 'Arrun-1, punay marg')
-    INTO Address VALUES (2, 'Nepal', 'Bagmati', 'Dharan', 'Harisal, Ram marg')
-    INTO Address VALUES (3, 'Nepal', 'Lumbini', 'Kapivastu', 'Manga, hari marg')
-    INTO Address VALUES (4, 'Nepal', 'Gandaki', 'Butwal', 'Kalikanagr-9, punam marg')
-    INTO Address VALUES (5, 'Nepal', 'Gandaki', 'Kathmandu', 'rampur, sitaa marg')
-    INTO Address VALUES (6, 'Nepal', 'Janakpur', 'Butwal', 'minasu -3, tamil marg')
-    INTO Address VALUES (7, 'Nepal', 'Lumbini', 'Lalitpur', 'pokunir-3, cheenai marg')
-    INTO Address VALUES (8, 'Nepal', 'Sagarmatha', 'Butwal', 'anagar-12, punam marg')
-    INTO Address VALUES (9, 'Nepal', 'Lumbini', 'Bhaktapur', 'mithu, sita marg')
-    INTO Address VALUES (10, 'Nepal', 'Janakpur', 'Kalikot', 'rambir, punam marg')
+    INTO Address (Country, Province, city_locality, street_name) VALUES ('Nepal', 'Lumbini', 'Butwal', 'Arrun-1, punay marg')
+    INTO Address  (Country, Province, city_locality, street_name) VALUES ('Nepal', 'Bagmati', 'Dharan', 'Harisal, Ram marg')
+    INTO Address  (Country, Province, city_locality, street_name) VALUES ('Nepal', 'Lumbini', 'Kapivastu', 'Manga, hari marg')
+    INTO Address  (Country, Province, city_locality, street_name) VALUES ('Nepal', 'Gandaki', 'Butwal', 'Kalikanagr-9, punam marg')
+    INTO Address  (Country, Province, city_locality, street_name)VALUES ('Nepal', 'Gandaki', 'Kathmandu', 'rampur, sitaa marg')
+    INTO Address  (Country, Province, city_locality, street_name) VALUES ('Nepal', 'Janakpur', 'Butwal', 'minasu -3, tamil marg')
+    INTO Address  (Country, Province, city_locality, street_name) VALUES ('Nepal', 'Lumbini', 'Lalitpur', 'pokunir-3, cheenai marg')
+    INTO Address  (Country, Province, city_locality, street_name) VALUES ('Nepal', 'Sagarmatha', 'Butwal', 'anagar-12, punam marg')
+    INTO Address  (Country, Province, city_locality, street_name) VALUES ('Nepal', 'Lumbini', 'Bhaktapur', 'mithu, sita marg')
+    INTO Address  (Country, Province, city_locality, street_name) VALUES ('Nepal', 'Janakpur', 'Kalikot', 'rambir, punam marg')
 SELECT * FROM Dual;
 
 --Person data insertion
 INSERT ALL
-    INTO Person  values (1, 'Student', 'Creight Cronk', 'Female', DATE '2022-10-11', '772-198-6349', 'ccronk0@exblog.jp')
-    INTO Person values (2, 'Student', 'Riobard Cussins', 'Male', DATE '2021-05-23', '354-366-6729', 'rcussins1@elegantthemes.com')
-    INTO Person values (3, 'Teacher', 'Moe McGettrick', 'Male', DATE '2021-11-11', '553-758-2815', 'mmcgettrick2@webeden.co.uk')
-    INTO Person values (4, 'Student', 'Grethel Kingescot', 'Male', DATE '2019-05-02', '628-136-8886', 'gkingescot3@howstuffworks.com')
-    INTO Person values (5, 'Teacher', 'Reinaldo Perrycost', 'Female', DATE '2019-06-23', '819-354-9623', 'rperrycost4@discovery.com')
-    INTO Person values (6, 'Teacher', 'Maybelle Haestier', 'Female', DATE '2022-02-12', '569-907-1254', 'mhaestier5@tuttocitta.it')
-    INTO Person values (7, 'Student', 'Donnie Bingell', 'Male', DATE '2021-03-21', '726-683-8617', 'dbingell6@webeden.co.uk')
-    INTO Person values (8, 'Teacher', 'Sula Dovidaitis', 'Female', DATE '2018-11-15', '264-994-0532', 'sdovidaitis7@yahoo.co.jp')
-    INTO Person values (9, 'Student', 'Mallory Yakobovitz', 'Male', DATE '2019-12-29', '479-218-9307', 'myakobovitz8@youtube.com')
-    INTO Person values (10, 'Teacher', 'Eleen Garvan', 'Female', DATE '2019-07-23', '128-636-5820', 'egarvan9@sohu.com')
+    INTO Person (person_type, full_name, gender, dob, phone, email) values ('Student', 'Creight Cronk', 'Female', DATE '2022-10-11', '772-198-6349', 'ccronk0@exblog.jp')
+    INTO Person (person_type, full_name, gender, dob, phone, email) values ('Student', 'Riobard Cussins', 'Male', DATE '2021-05-23', '354-366-6729', 'rcussins1@elegantthemes.com')
+    INTO Person (person_type, full_name, gender, dob, phone, email) values ('Teacher', 'Moe McGettrick', 'Male', DATE '2021-11-11', '553-758-2815', 'mmcgettrick2@webeden.co.uk')
+    INTO Person (person_type, full_name, gender, dob, phone, email) values ('Student', 'Grethel Kingescot', 'Male', DATE '2019-05-02', '628-136-8886', 'gkingescot3@howstuffworks.com')
+    INTO Person (person_type, full_name, gender, dob, phone, email) values ('Teacher', 'Reinaldo Perrycost', 'Female', DATE '2019-06-23', '819-354-9623', 'rperrycost4@discovery.com')
+    INTO Person (person_type, full_name, gender, dob, phone, email) values ('Teacher', 'Maybelle Haestier', 'Female', DATE '2022-02-12', '569-907-1254', 'mhaestier5@tuttocitta.it')
+    INTO Person (person_type, full_name, gender, dob, phone, email) values ('Student', 'Donnie Bingell', 'Male', DATE '2021-03-21', '726-683-8617', 'dbingell6@webeden.co.uk')
+    INTO Person (person_type, full_name, gender, dob, phone, email) values ('Teacher', 'Sula Dovidaitis', 'Female', DATE '2018-11-15', '264-994-0532', 'sdovidaitis7@yahoo.co.jp')
+    INTO Person (person_type, full_name, gender, dob, phone, email) values ('Student', 'Mallory Yakobovitz', 'Male', DATE '2019-12-29', '479-218-9307', 'myakobovitz8@youtube.com')
+    INTO Person (person_type, full_name, gender, dob, phone, email) values ('Teacher', 'Eleen Garvan', 'Female', DATE '2019-07-23', '128-636-5820', 'egarvan9@sohu.com')
 SELECT * FROM Dual;
 
 -- Person Address data insertion
@@ -70,11 +70,11 @@ SELECT * FROM Dual;
 
 -- Module data insertion
 INSERT ALL
-    INTO Module VALUES (1, 'CS504NA', 'Software Engineering', 14, 15)
-    INTO Module VALUES (2, 'CS123NA', 'Hardware & Software', 24, 30)
-    INTO Module VALUES (3, 'CS932NA', 'Scientific Computing', 14, 30)
-    INTO Module VALUES (4, 'CS732NA', 'Programming', 14, 15)
-    INTO Module VALUES (5, 'CS711NA', 'Artificial Intelligence', 24, 30)
+    INTO Module (module_code, module_name, week_duration, credit_hours) VALUES ('CS504NA', 'Software Engineering', 14, 15)
+    INTO Module (module_code, module_name, week_duration, credit_hours) VALUES ('CS123NA', 'Hardware and Software', 24, 30)
+    INTO Module (module_code, module_name, week_duration, credit_hours) VALUES ('CS932NA', 'Scientific Computing', 14, 30)
+    INTO Module (module_code, module_name, week_duration, credit_hours) VALUES ('CS732NA', 'Programming', 14, 15)
+    INTO Module (module_code, module_name, week_duration, credit_hours) VALUES ('CS711NA', 'Artificial Intelligence', 24, 30)
 SELECT * FROM Dual;
 
 
@@ -94,49 +94,49 @@ SELECT * FROM Dual;
 
 -- Department data insertion
 INSERT ALL
-    INTO Department VALUES (1, 'Finance', 'Buckingham Block BB01', 80)
-    INTO Department VALUES (2, 'Academic', 'London Block LB04', 124)
-    INTO Department VALUES (3, 'RTE', 'Buckingham Block BB05', 72)
-    INTO Department VALUES (4, 'Skill', 'Nuttingham Block NB03', 230)
-    INTO Department VALUES (5, 'Student Service', 'West Minister Block WB04', 118)
-    INTO Department VALUES (6, 'Bussiness', 'Nepal Block NB01', 118)
-    INTO Department VALUES (7, 'External Partnership', 'Wolverhantum Block WB02', 118)
+    INTO Department (department_name, department_location, num_employees) VALUES ('Finance', 'Buckingham Block BB01', 80)
+    INTO Department (department_name, department_location, num_employees) VALUES ('Academic', 'London Block LB04', 124)
+    INTO Department (department_name, department_location, num_employees) VALUES ('RTE', 'Buckingham Block BB05', 72)
+    INTO Department (department_name, department_location, num_employees) VALUES ('Skill', 'Nuttingham Block NB03', 230)
+    INTO Department (department_name, department_location, num_employees) VALUES ('Student Service', 'West Minister Block WB04', 118)
+    INTO Department (department_name, department_location, num_employees) VALUES ('Bussiness', 'Nepal Block NB01', 118)
+    INTO Department (department_name, department_location, num_employees) VALUES ('External Partnership', 'Wolverhantum Block WB02', 118)
 SELECT * FROM Dual;
 
 -- Fee data insertion
 INSERT ALL
-    INTO Fee VALUES (1, '1st Sem', 115500, 1)
-    INTO Fee VALUES (2, '2nd Sem', 139999.99, 1)
-    INTO Fee VALUES (3, '3rd Sem', 115500, 1)
-    INTO Fee VALUES (4, '4th Sem', 115599.99, 1)
-    INTO Fee VALUES (5, '5th Sem', 139999.99, 1)
-    INTO Fee VALUES (6, '6th Sem', 115500, 1)
-    INTO Fee VALUES (7, '1st Yearly UNI', 120000, 1)
-    INTO Fee VALUES (8, '2nd Yearly UNI', 120000, 1)
-    INTO Fee VALUES (9, '3rd Yearly UNI', 120000, 1)
+    INTO Fee (fee_type, fee_amount, department_id) VALUES ('1st Sem', 115500, 1)
+    INTO Fee (fee_type, fee_amount, department_id) VALUES ('2nd Sem', 139999.99, 1)
+    INTO Fee (fee_type, fee_amount, department_id) VALUES ('3rd Sem', 115500, 1)
+    INTO Fee (fee_type, fee_amount, department_id) VALUES ('4th Sem', 115599.99, 1)
+    INTO Fee (fee_type, fee_amount, department_id) VALUES ('5th Sem', 139999.99, 1)
+    INTO Fee (fee_type, fee_amount, department_id) VALUES ('6th Sem', 115500, 1)
+    INTO Fee (fee_type, fee_amount, department_id) VALUES ('1st Yearly UNI', 120000, 1)
+    INTO Fee (fee_type, fee_amount, department_id) VALUES ('2nd Yearly UNI', 120000, 1)
+    INTO Fee (fee_type, fee_amount, department_id) VALUES ('3rd Yearly UNI', 120000, 1)
 SELECT * FROM Dual;
 
 -- Assignment data insertion
 INSERT ALL
-    INTO Assignment VALUES (1, 'MCQ', 3)
-    INTO Assignment VALUES (2, 'Unseen Examination', 3)
-    INTO Assignment VALUES (3, 'Groupwork', 3)
-    INTO Assignment VALUES (4, 'Coursework', 3)
-    INTO Assignment VALUES (5, 'project', 3)
+    INTO Assignment (assignment_type, department_id) VALUES ('MCQ', 3)
+    INTO Assignment (assignment_type, department_id) VALUES ('Unseen Examination', 3)
+    INTO Assignment (assignment_type, department_id) VALUES ('Groupwork', 3)
+    INTO Assignment (assignment_type, department_id) VALUES ('Coursework', 3)
+    INTO Assignment (assignment_type, department_id) VALUES ('project', 3)
 SELECT * FROM Dual;
 
 -- Attendance data insertion
 INSERT ALL
-    INTO Attendance VALUES (1, DATE '2021-01-04', 2)
-    INTO Attendance VALUES (2, DATE '2021-01-05', 2)
-    INTO Attendance VALUES (3, DATE '2021-01-06', 2)
-    INTO Attendance VALUES (4, DATE '2021-01-07', 2)
-    INTO Attendance VALUES (5, DATE '2021-02-14', 2)
-    INTO Attendance VALUES (6, DATE '2021-02-15', 2)
-    INTO Attendance VALUES (7, DATE '2021-02-16', 2)
-    INTO Attendance VALUES (8, DATE '2021-02-17', 2)
-    INTO Attendance VALUES (9, DATE '2021-02-19', 2)
-    INTO Attendance VALUES (10, DATE '2021-02-20', 2)
+    INTO Attendance (attendance_date, department_id) VALUES (DATE '2021-01-04', 2)
+    INTO Attendance (attendance_date, department_id) VALUES (DATE '2021-01-05', 2)
+    INTO Attendance (attendance_date, department_id) VALUES (DATE '2021-01-06', 2)
+    INTO Attendance (attendance_date, department_id) VALUES (DATE '2021-01-07', 2)
+    INTO Attendance (attendance_date, department_id) VALUES (DATE '2021-02-14', 2)
+    INTO Attendance (attendance_date, department_id) VALUES (DATE '2021-02-15', 2)
+    INTO Attendance (attendance_date, department_id) VALUES (DATE '2021-02-16', 2)
+    INTO Attendance (attendance_date, department_id) VALUES (DATE '2021-02-17', 2)
+    INTO Attendance (attendance_date, department_id) VALUES (DATE '2021-02-19', 2)
+    INTO Attendance (attendance_date, department_id) VALUES (DATE '2021-02-20', 2)
 SELECT * FROM Dual;
 
 
@@ -213,29 +213,3 @@ INSERT ALL
     INTO Student_Attendance VALUES (4, 5, 'Present')
     INTO Student_Attendance VALUES (9, 2, 'Present')
 SELECT * FROM Dual;
-
-SELECT * FROM Address;
-SELECT * FROM Person;
-SELECT * FROM Person_Address;
-SELECT * FROM Student;
-SELECT * FROM Teacher;
-SELECT * FROM Module;
-SELECT * FROM Module_Enrolment;
-SELECT * FROM Module_Allocation;
-SELECT * FROM Department;
-SELECT * FROM Fee;
-SELECT * FROM Student_Fee;
-SELECT * FROM Attendance;
-SELECT * FROM Student_Attendance;
-SELECT * FROM Assignment;
-SELECT * FROM Grade_Status;
-SELECT * FROM Assignment_Result;
-
-
-
-
-
-
-
-
-
