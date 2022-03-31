@@ -44,7 +44,7 @@ SELECT
     collegedb.person.phone,
     collegedb.person.email,
     collegedb.student.specialization,
-    collegedb.student."group",
+    collegedb.student.class_group,
     collegedb.student.date_joined
 FROM
     collegedb.person

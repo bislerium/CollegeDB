@@ -35,7 +35,7 @@
 <ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="group" id="809A62E3-F26A-96BD-FAA0-62B123F5454A">
+<Column name="class_group" id="809A62E3-F26A-96BD-FAA0-62B123F5454A">
 <createdBy>bisha</createdBy>
 <createdTime>2022-03-19 17:50:03 UTC</createdTime>
 <generatorID>010EDD8C-E3AC-E29F-9405-9F6EF69F4E29</generatorID>
